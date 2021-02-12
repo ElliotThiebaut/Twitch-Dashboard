@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#chatList{
+    list-style: none;
+}
+
+.informations{
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3em;
+    font-size: 1.5em;
+}
+.information-div p{
+    margin: 1em;
+}
+
+.title{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#channelName{
+    color: #6441a5;
+}
+
+#chat{
+    box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 2em;
+    font-size: 1.3em;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.chat-username{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(15, 60, 207);
+}
+
+#messagePerMin{
+    font-weight: bold;
+    color: #6441a5;
+}
+
+#MessagePerSec{
+    font-weight: bold;
+    color: #6441a5;
+}
+
+#numberOfMessage{
+    font-weight: bold;
+    color: #6441a5;
+}
